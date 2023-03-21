@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+}
+div.nav {
+    margin: 0;
+    padding: 30px;
+    height: 25px;
+    background-color: #efeffa;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+}
+a.lang {
+    color: #CF1512;
+    margin: 0px 100px 0px auto;
+}
+img.mainImg {
+    display: block;
+    margin: 0 auto;
+}
+span.techBlog {
+    border: solid 1px #6d64ff;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #6d64ff 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+div.techDesc {
+    padding: 10px;
+}
+a { 
+    text-decoration: none; 
+    color: black; 
+   }
+a:visited {
+    text-decoration: none;
+    color: black;
+}
