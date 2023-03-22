@@ -76,23 +76,75 @@ button:hover {
     box-shadow: 10px 10px 10px 5px #6d64ff;
 }
 
-.flex-box-card {
+/* .flex-box-card {
     border: solid 3px #6d64ff;
     display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
 }
 .flex-box-item {
     justify-items: center;
     margin: 20px;
 }
 
-
-
-
+.sideCard {
+    background-color: #efeffa;
+    margin: 4px;
+    padding: 0;
+} */
+.flex-box-card {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+  }
+.border {
+    border: solid 3px #6d64ff;
+    border-bottom-left-radius: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    margin: 0 auto;
+}
 .flex-box-vertical {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+    justify-content: space-evenly;
+  }
+  
+.purpleP{
+    color: #6d64ff;
+  }  
+  .flex-box-horizontal {
+    display: flex;
+    margin-top: 0px;
+  }
+  
+  .flex-box-item {
+    display: flex;
+    margin: 10px;
+  }
+  
+  .sideCard {
+    background-color: #efeffa;
+    margin: 10px;
+    flex: 0 1;
+    align-items: center;
+  }
+.hrForCard {
+    color: black;
+    background-color: #6d64ff;
+    width: 60px;
+    height: 2px;
+}
+/* .flex-box-vertical {
     display: flex;
     flex-direction: column;
 }
 .flex-box-horizontal {
     display: flex;
     flex-direction: row;
-}
+} */
