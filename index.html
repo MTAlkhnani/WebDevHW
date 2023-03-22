@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div class="nav">
-        <a href="index.html"></a><span class="techBlog">Tech Blog</span></a>
-        <select name="choices" class="lang"> 
+    <div class="nav-flex-box">
+        <a href="index.html"><span class="techBlog">Tech Blog</span></a>
+        <select name="choices"> 
             <option>First</option> 
             <option>Second</option> 
             <option>Third</option>
@@ -23,40 +23,70 @@
     <div class="techDesc">
         <h3>Welcome to The <span class="techBlog">Tech Blog</span>...</h3>
         <h3>The best place to share your knowledge and make the world better</h3>
-        <button class="blackBtn" style="color: white"><a href="new.html" style="color: white">Create an Article</a></button>
+        <a href="new.html" style="color: white"><button class="blackBtn" style="color: white">Create an Article</button></a>
     </div>
 
     <h1 class="techArticles">All Technical Articles</h1>
 
-    <div class="card">
-        <h2>HTML Introduction</h2>
-        <p>HTML is the standard markup language for creating Web pages.</p>
-        <a href="article.html">Read now</a> 
-        <button>Edit</button>
-        <button>Delete</button>
+    <div class="flex-box-card">
+
+        <div class="flex-box-vertical">
+            <p class="flex-box-item flex-box-item-1">Pictuire</p>
+            <p class="flex-box-item flex-box-item-2">author</p>
+            <p class="flex-box-item flex-box-item-3">hr</p>
+            <p class="flex-box-item flex-box-item-3">heart pic</p>
+            <p class="flex-box-item flex-box-item-4">number</p>
+        </div>
+        <div class="flex-box-vertical">
+            <h2 class="flex-box-item flex-box-item-5">HTML Introduction</h2>
+            <p class="flex-box-item flex-box-item-6">HTML is the standard markup language for creating Web pages.</p>
+            <div class="flex-box-horizontal">
+                <a href="article.html" class="flex-box-item flex-box-item-7"><button class="blackBtn" style="color: white">Read now</button></a> 
+                <button class="flex-box-item flex-box-item-8 purpleBtn">Edit</button>
+                <button class="flex-box-item flex-box-item-9 redBtn">Delete</button>
+            </div>
+        </div>
     </div>
 
-    <hr>
+    <div class="flex-box-card">
 
-    <div class="card">
-        <h2>Creating hyperlinks</h2>
-        <p>Hyperlinks are really important — they are what makes the Web a web. This article shows the syntax</p>
-        <a href="article.html">Read now</a> 
-        <button>Edit</button>
-        <button>Delete</button>
+        <div class="flex-box-vertical">
+            <p class="flex-box-item flex-box-item-1">Pictuire</p>
+            <p class="flex-box-item flex-box-item-2">author</p>
+            <p class="flex-box-item flex-box-item-3">hr</p>
+            <p class="flex-box-item flex-box-item-3">heart pic</p>
+            <p class="flex-box-item flex-box-item-4">number</p>
+        </div>
+        <div class="flex-box-vertical">
+            <h2 class="flex-box-item flex-box-item-5">Creating hyperlinks</h2>
+            <p class="flex-box-item flex-box-item-6">Hyperlinks are really important — they are what makes the Web a web. This article shows the syntax</p>
+            <div class="flex-box-horizontal">
+                <a href="article.html" class="flex-box-item flex-box-item-7"><button class="blackBtn" style="color: white">Read now</button></a> 
+                <button class="flex-box-item flex-box-item-8 purpleBtn">Edit</button>
+                <button class="flex-box-item flex-box-item-9 redBtn">Delete</button>
+            </div>
+        </div>
     </div>
 
-    <hr>
-    
-    <div class="card">
-        <h2>HTML tables</h2>
-        <p>A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.</p>
-        <a href="article.html">Read now</a> 
-        <button>Edit</button>
-        <button>Delete</button>
-    </div>
+    <div class="flex-box-card">
 
-    <hr>
+        <div class="flex-box-vertical">
+            <p class="flex-box-item flex-box-item-1">Pictuire</p>
+            <p class="flex-box-item flex-box-item-2">author</p>
+            <p class="flex-box-item flex-box-item-3">hr</p>
+            <p class="flex-box-item flex-box-item-3">heart pic</p>
+            <p class="flex-box-item flex-box-item-4">number</p>
+        </div>
+        <div class="flex-box-vertical">
+            <h2 class="flex-box-item flex-box-item-5">Creating hyperlinks</h2>
+            <p class="flex-box-item flex-box-item-6">A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.</p>
+            <div class="flex-box-horizontal">
+                <a href="article.html" class="flex-box-item flex-box-item-7"><button class="blackBtn" style="color: white">Read now</button></a> 
+                <button class="flex-box-item flex-box-item-8 purpleBtn">Edit</button>
+                <button class="flex-box-item flex-box-item-9 redBtn">Delete</button>
+            </div>
+        </div>
+    </div>
 
     <footer>© The <span class="techBlog">Tech Blog</span> 2023 created by 222-SWE-363 Student</footer>
     
