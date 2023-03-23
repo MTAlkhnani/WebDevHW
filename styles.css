@@ -3,11 +3,7 @@
 }
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    /* height: 100vh; */
-    justify-content: center;
-    align-items: center;
+
 }
 div.nav-flex-box {
     background-color: #efeffa;
@@ -31,8 +27,22 @@ span.techBlog {
     background: linear-gradient(to right, #6d64ff 0%, #CF1512 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
+.container img{
+    height: 95vh;
+    max-width: 960px;
+}
+.container {
+    position: relative;
+}
+.container .techDesc {
+    max-width: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 125px;
+    width: 550px;
+}
+
 div.techDesc {
     padding: 10px;
     margin: auto;
@@ -113,6 +123,8 @@ button:hover {
     border-top-style: hidden;
     border-right-style: hidden;
     margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
 }
 .flex-box-vertical {
     display: flex;
@@ -210,4 +222,40 @@ button:hover {
 }
 .submitBtn {
     margin-bottom: 10px;
+}
+
+.article-wrapper {
+    margin: 0 30vh 0 50vh;
+}
+
+.article-title {
+    font-size: 7.5vh;
+}
+
+.article-author {
+    background-color: #efeffa;
+    width: fit-content;
+}
+.article-author  h4{
+    padding: 10px;
+}
+.article-desc {
+    color:#6d64ff;
+}
+
+.button-box {
+    width: 105px;
+    height: 100px;
+    padding: 15px;
+    border: solid 3px #6d64ff;
+    background-color: #313042;
+    border-radius: 1rem;
+    display: flex;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.button-box p{
+    margin-top: 85px;
+    margin-left: 2px;
 }
