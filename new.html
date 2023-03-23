@@ -7,23 +7,48 @@
     <title>Create an article</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h2>Create an article</h2>
-    <form action="" method="get">
-        <label>Title</label>
-        <input type="text" name="title" id="">
-        <br><br>
-        <label>Author</label>
-        <input type="text" name="author" value="Admin" id="">
-        <br><br>
-        <label>Description</label>
-        <textarea name="" id="" cols="20" rows="3"></textarea>
-        <br><br>
-        <label>Content</label>
-        <textarea name="" id="" cols="20" rows="10"></textarea>
-        <br><br>
-        <Button type="submit">Create</Button>
-    </form>
-    <footer>© The Tech Blog 2023 created by 222-SWE-363 Student</footer>
+<body class="newBody">
+
+        <div class="nav-flex-box">
+            <a href="index.html"><span class="techBlog">Tech Blog</span></a>
+            <select name="choices"> 
+                <option>English</option> 
+                <option>Arabic</option> 
+            </select>
+          </div>
+          <div class="newWrapper">
+        <div class="centering-flex"> 
+            <h2 class="pageTitle">Create an article</h2>
+            <form action="" method="get">
+                <div class="article-details">
+                    <div>
+                        <label>Title</label>
+                        <input type="text" name="title" id="">
+                    </div>
+                    <div class="field">
+                        <label>Author</label>
+                        <input type="text" name="author" value="Admin" id="">
+                    </div>
+                    <div class="field">
+                        <label>Description</label>
+                        <textarea name="" id="" cols="20" rows="3"></textarea>
+                    </div>
+                    <div class="field">
+                        <label>Content</label>
+                        <textarea name="" id="" cols="20" rows="10"></textarea>
+                    </div>
+                    <div class="field">
+                        <label>Arabic Content</label>
+                        <textarea name="" id="" cols="20" rows="10"></textarea>
+                    </div>
+                    <Button type="submit" class="blackBtn submitBtn">Create</Button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+        <div class="nav-flex-box">
+            <footer>© The <span class="techBlog">Tech Blog</span> 2023 created by 222-SWE-363 Student</footer>
+        </div> 
 </body>
 </html>
