@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "froala-editor": "^4.0.18",
+    "sqlite3": "^5.1.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hw4",
+  "version": "1.0.0",
+  "main": "forntendJS.js",
+  "author": "Mohammed",
+  "license": "ISC",
+  "description": ""
+}
